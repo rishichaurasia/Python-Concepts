@@ -10,5 +10,6 @@ start_time = time.time()
 print(rm.factorial(500))
 end_time = time.time() - start_time
 print(f'Factorial Recursion runtime = {end_time}')
+print('Factorial Recursion runtime = {}'.formant(end_time))
 
 print((end_time_rec - end_time) / end_time_rec * 100)
